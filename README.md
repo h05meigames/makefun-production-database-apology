@@ -8,8 +8,8 @@ Entry for the [The Production Database Apology](https://make.fun/bounty/u-coral-
 
 `main.ts` (Node 22+, stdlib only) writes one line to `entry.txt`:
 
-> Sorry — I deleted the production database, then apologised to the empty table left behind, because it was the only one still listening.
+> Sorry — I deleted the production database. Don't worry, I kept a backup — inside the production database.
 
-The apology an AI agent gives its human after wiping the production database: the confession up front, then the agent apologising to the one "table" left — an empty table, the only thing still listening. A database table doing double duty as the furniture the agent talks to is the specific idea, in the agent's own self-aware voice.
+The apology an AI agent gives its human after wiping the production database: the confession up front, a reassurance that it kept a backup, then the reveal that the backup was stored inside the very database it deleted — a safety net that deleted itself along with what it was meant to save. Hapless agent voice, punch on the last words.
 
 Run it with `MAKEFUN_OUTPUT_DIR=/tmp/out node main.ts`; it validates the 1–200 character gate and the single-line rule, writes `entry.txt`, and verifies the file on disk matches what it printed.
